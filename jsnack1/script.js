@@ -11,4 +11,11 @@ btn.addEventListener('click', function () {
         if (name_list[i].toLowerCase() === name)
             list_check = true
     }
+
+    if (list_check === true) {
+        console.log('sei dentro alla lista, benvenuto alla festa!')
+    }
+    else {
+        console.log('mi dispiace ma non sei dentro la lista, non posso farti entrare')
+    }
 })
